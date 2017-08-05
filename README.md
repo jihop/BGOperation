@@ -7,9 +7,18 @@ BGOperation is an elegant background operation library for iOS. It's compatible 
 
 ## Architecture
 
-* BGOperation: Background operation
-* BGOperationTask: Background task composed of set number of background operation to execute once
-* BGOperationQueue: Background queue that can continuously enqueue background operations
+* `BGOperation`: Background operation (subclass of NSOperation)
+  - `BGOperationDelegate`
+  - `BGOperationStatus`
+  - `BGOperationResult`
+* `BGOperationTask`: Background task to run a set of background operations once
+  - `BGOperationTaskDelegate`
+  - `BGOperationTaskPolicy`
+  - `BGOperationTaskStatus`
+* `BGOperationQueue`: Background queue that can continuously run background operations
+  - `BGOperationQueueDelegate`
+  - `BGOperationQeueuPolicy`
+  - `BGOperationQueueStatus`
 
 ## Usage
 
