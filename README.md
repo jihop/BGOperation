@@ -1,9 +1,16 @@
 # BGOperation
-BGOperation is an elegant background operation library for iOS. It's compatible with native operation framework, with additional set of library to make creating and running NSOperations easy.
+BGOperation is a light-weight extension of [iOS Operation Library (NSOperations/NSOperationQueue)](https://developer.apple.com/documentation/foundation/operation). It makes using operations/queues really easy.
 
-* Compatible with iOS native operation framework
-* Mix sync/async operations
-* Crate dependency between operations
+* 100% compatible with iOS operations framework
+* Supports async operation
+* Profiling/monitoring built-in
+* Advanced policy to control operation execution
+
+As subclasses of NSOperation, BGOperation inherits the following advantages as well:
+
+* Configure operation dependency
+* Concurrency management (max concurrent operation count)
+* Serial/Concurrent modes
 
 ## Installation
 
