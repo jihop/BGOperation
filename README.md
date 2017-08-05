@@ -1,5 +1,5 @@
 # BGOperation
-BGOperation is a light-weight extension of [iOS Operation Library (NSOperations/NSOperationQueue)](https://developer.apple.com/documentation/foundation/operation). It makes using operations/queues really easy.
+BGOperation is a light-weight extension of [iOS Operation Library](https://developer.apple.com/documentation/foundation/operation). It makes using operations/queues really easy.
 
 * 100% compatible with iOS operations framework
 * Supports async operation
